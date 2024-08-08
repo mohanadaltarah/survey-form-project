@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Sirat Podcast Survey Form</h1>
+    <p id="description"> Thank you for taking the time to help us reach more people</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name<input  id="name" type"text" placeholder="Enter your name" required /></label>
+      <label for="email" id="email-label">Email<input  id="email" type="email" placeholder="Enter your email" required/></label>
+      <label for="number" id="number-label">Number<input id="number" type="number" max="10" min="10" placeholder="Enter your number"/></label>
+      </fieldset>
+      <fieldset>
+        <label> What is your position?
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">Student</option>
+          <option value="2">Employeed</option>
+          <option value="3">Unemployeed</option>
+        </select>
+      </label>
+      </fieldset>
+      <fieldset>
+        <label> Select your gender </label>
+        <label for="male-gender"><input type="radio" id="male-gender" name="gender" value="male-gender"/> Male</label>
+        <label for="female-gender"><input type="radio" id="female-gender" name="gender" value="female-gender"/> Female
+      </label>
+      </fieldset>
+      <fieldset>
+        <label> What topics are you concerned about?</label>
+       <label for="islamic-studies"><input id="islamic-studies" type="checkbox" value="islamic-studies"/>Islamic Studies</label>
+        <label for="time-management"><input id="time-management" type="checkbox" value="time-management"/>Time Management</label>
+        <label for="habit-formation"><input id="habit-formation" type="checkbox" value="habit-formation"/>Habit Formation</label>
+        <label for="minimalism"><input id="minimalism" type="checkbox" value="minimalism"/>Minimalism</label>
+        <label for="productivity"><input id="productivity" type="checkbox" value="productivity"/>Productivity</label>
+        <label for="relationships"><input id="relationships" type="checkbox" value="relationships"/>Relationships</label>
+      
+      </fieldset>
+      <fieldset>
+        <label>Tell us more about yourself<textarea></textarea></label>
+      </fieldset>
+      <input id="submit" type="submit" Value"Submit"/>
+    </form>
+
+  </body>
+</html>
